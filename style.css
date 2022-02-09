@@ -27,3 +27,29 @@ body {
   font-size: 20px;
   font-family: "Inconsolata", monospace;
 }
+
+.about {
+  text-align: center;
+  margin-top: 10%;
+  font-family: "Inconsolata", monospace;
+}
+
+.about h1 {
+  margin-bottom: -5px;
+}
+
+.about h3 {
+  font-size: 20px;
+  color: #5e5e5e;
+}
+
+.underline-container {
+  display: flex;
+  justify-content: center;
+}
+
+.underline {
+  width: 20%;
+  border-bottom: 2px solid #5e5e5e;
+  margin-bottom: 10px;
+}
