@@ -1,0 +1,29 @@
+body {
+  background-color: #fafafa;
+}
+
+.profile-picture {
+  margin-top: 20%;
+  border-radius: 50%;
+  width: 100%;
+  height: auto;
+}
+
+.navbar {
+  font-family: "Inconsolata", monospace;
+  font-size: 20px;
+}
+
+.navbar-brand {
+  font-size: 20px;
+}
+
+.title {
+  margin-top: 50%;
+  font-family: "Inconsolata", monospace;
+}
+
+.sub-title {
+  font-size: 20px;
+  font-family: "Inconsolata", monospace;
+}
