@@ -53,3 +53,9 @@ body {
   border-bottom: 2px solid #5e5e5e;
   margin-bottom: 10px;
 }
+
+.acheivements {
+  margin-top: -30px;
+  width: 100%;
+  height: auto;
+}
