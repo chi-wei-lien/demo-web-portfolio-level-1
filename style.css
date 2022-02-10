@@ -103,3 +103,21 @@ body {
   color: #ffcf31;
   text-decoration: none;
 }
+
+.fa-github {
+  color: white;
+}
+
+.fa-github:hover {
+  color: #ffcf31;
+  text-decoration: none;
+}
+
+.fa-coffee {
+  color: white;
+}
+
+.fa-coffee:hover {
+  color: #ffcf31;
+  text-decoration: none;
+}
