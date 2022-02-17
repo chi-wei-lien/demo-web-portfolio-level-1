@@ -8,14 +8,16 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="style.css">
+
     <title>Bertram</title>
     <link rel="icon" type="image/x-icon" href="public/images/favicon.ico">
 
     <!-- Add icon library -->
     <script src="https://use.fontawesome.com/750a16f689.js"></script>
   </head>
-  <body>
+  <body id="dark-mode-bg">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand" href="#">Bertram</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,28 +34,31 @@
         </ul>
       </div>
     </nav>
-    <div class="row">
-      <div class="col-md-1"></div>
-      <div class="col-md-4">
-        <img class="profile-picture" src="public/images/bertram.png">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-4">
+          <img class="profile-picture" src="public/images/bertram.png">
+        </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-4">
+          <h1 class="title dark-mode-word">Hi! I'm Bertram.</h1>
+          <h3 class="sub-title dark-mode-word">I'm a designer, coder.</h3>
+          <h3 class="sub-title dark-mode-word">Feel free to call me Bert.</h3>
+        </div>
+        <div class="col-md-1"></div>
       </div>
-      <div class="col-md-1"></div>
-      <div class="col-md-4">
-        <h1 class="title">Hi! I'm Bertram.</h1>
-        <h3 class="sub-title">I'm a designer, coder.</h3>
-        <h3 class="sub-title">Feel free to call me Bert.</h3>
-      </div>
-      <div class="col-md-1"></div>
     </div>
-    <div class="container">
+    
+    <div class="container-fluid">
       <div class="row">
         <div class="col-md-3"></div>
-        <div class="col-md-6 about" id="about-section">
+        <div class="col-md-6 about dark-mode-word" id="about-section">
           <h1> About </h1>
           <div class="underline-container">
             <div class="underline"></div>
           </div>
-          <h3> I love doing hackathons with my friends, playing video games, and listening to music. This is my discord demo#0000, shoot me a message if you want to play games with me!</h3>
+          <h3 class="dark-mode-word"> I love doing hackathons with my friends, playing video games, and listening to music. This is my discord demo#0000, shoot me a message if you want to play games with me!</h3>
           <img class="acheivements" src="public/images/acheivements.png">
         </div>
         <div class="col-md-3">
@@ -77,8 +82,9 @@
         </div>
       </div>
     </div>
-    
 
+    <!-- Custom JS -->
+    <script src="index.js"></script>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
