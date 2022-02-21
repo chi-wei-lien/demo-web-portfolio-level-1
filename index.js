@@ -1,16 +1,15 @@
 var today = new Date();
 var bg = document.getElementById("dark-mode-bg");
-var navbar = document.getElementById("dark-mode-nav");
 var words = document.getElementsByClassName("dark-mode-word");
+var nav = document.getElementById("dark-mode-nav");
 
-if (today.getHours() >= 17) {
-  console.log("night time");
+if (today.getHours() > 17) {
   bg.style.backgroundColor = "#4C6079";
   for (let word of words) {
     word.style.color = "white";
   }
-  navbar.classList.remove("navbar-light");
-  navbar.classList.remove("bg-light");
-  navbar.classList.add("navbar-dark");
-  navbar.classList.add("bg-dark");
-}
+  nav.classList.remove("navbar-light")
+  nav.classList.remove("bg-light")
+  nav.classList.add("navbar-dark")
+  nav.classList.add("bg-dark")
+} 
