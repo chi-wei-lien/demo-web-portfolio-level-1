@@ -78,3 +78,13 @@ body {
 .fa-github {
   color: white !important;
 }
+
+@media screen and (max-width: 500px) {
+  .title {
+    margin-top: 10%;
+    text-align: center;
+  }
+  .sub-title {
+    text-align: center;
+  }
+}
