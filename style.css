@@ -3,6 +3,10 @@ html {
 }
 
 body {
+  background-color: #4b4b4b;
+}
+
+.canvas {
   background-color: #fafafa;
 }
 
@@ -17,7 +21,7 @@ body {
   border-radius: 50%;
   width: 100%;
   height: auto;
-  margin-top: 10%;
+  margin-top: 20%;
 }
 
 .title {
